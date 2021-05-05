@@ -4665,3 +4665,1718 @@ java.lang.NullPointerException: null
 15:31:57,409   INFO ProjectView:588 - selected scenario 'corridor'
 15:31:57,499   INFO ProjectView:594 - repainted output table
 15:32:01,734   INFO ActionCloseApplication:28 - closing application...
+16:49:12,394   INFO STDOUTERR:15 - Redirect StdOut and StdErr
+16:49:12,402   INFO VadereApplication:25 - starting Vadere GUI...
+16:49:12,446   INFO VadereConfig:66 - Use config file from path /Users/longtaoliu/.config/vadere.conf
+16:49:15,883   INFO IOVadere:57 - read project: /Users/longtaoliu/Vadere/task1/Vadere/vadere.project
+16:49:15,933   INFO IOVadere:67 - analyzed scenario files.
+16:49:18,978   INFO IOVadere:88 - analyzed: 13, migrated: 0, upToDate: 13, notMigratable: 0
+16:49:21,328   INFO IOVadere:93 - project loaded: task1
+16:49:21,334   INFO ActionLoadProject:113 - refreshed output table - 2
+16:49:21,337   INFO ProjectView:588 - selected scenario 'Chicken_testOSM'
+16:49:21,545   INFO DataProcessingView:97 - switch to gui view
+16:49:21,732   INFO ProjectView:594 - repainted output table
+16:49:21,732   INFO ActionLoadProject:117 - selected the first scenario
+16:49:21,737   INFO ActionLoadProject:124 - project 'task1' loaded.
+16:49:27,467   INFO ProjectView:588 - selected scenario 'corridor_with_recovery'
+16:49:27,560   INFO ProjectView:594 - repainted output table
+16:49:29,433   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+16:49:29,518   INFO ProjectView:594 - repainted output table
+16:49:30,072   INFO ProjectView:588 - selected scenario 't41'
+16:49:30,162   INFO ProjectView:594 - repainted output table
+16:49:31,186   INFO ProjectView:588 - selected scenario 'corridor'
+16:49:31,271   INFO ProjectView:594 - repainted output table
+16:49:31,791   INFO ProjectView:588 - selected scenario 'corridor_with_recovery'
+16:49:31,874   INFO ProjectView:594 - repainted output table
+16:49:32,502   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+16:49:32,607   INFO ProjectView:594 - repainted output table
+16:49:52,805   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+16:49:52,809   INFO ScenarioRun:145 - Initializing scenario: static_with_recovery...
+16:49:52,830   INFO ScenarioRun:126 - scenario context initialized.
+16:49:52,838   INFO ScenarioRun:225 - no mesh static_with_recovery.poly was found.
+16:49:52,840   INFO ScenarioRun:225 - no mesh static_with_recovery_background.poly was found.
+16:49:52,869   WARN Version:76 - No version control commit hash available!
+16:49:52,971   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+16:49:52,977   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+16:49:53,017   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+16:49:53,051   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+16:49:53,096   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+16:49:53,116   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+16:49:53,130   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+16:49:53,142   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+16:49:53,154   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+16:49:53,174   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+16:49:53,185   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+16:49:53,198   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:224[ms]
+16:49:53,201   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+16:49:53,294   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:61[ms]
+16:49:53,304   INFO Simulation:259 - preLoop finished.
+16:49:55,808   INFO ActionPauseScenario:32 - all running scenarios paused
+16:52:02,364   INFO Simulation:362 - Finished writing all output files
+16:52:02,366   INFO ProjectView:142 - scenario static_with_recovery finished
+16:52:03,243   INFO VadereProject:302 - SimulationResult{scenarioName='"static_with_recovery", nr_overlaps (PID4)=119497, state='"SimulationRun completed"}
+16:52:03,245   INFO ScenarioRun:261 - Simulation of scenario static_with_recovery finished.
+16:52:03,247   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+16:52:03,336   INFO ProjectView:594 - repainted output table
+16:52:12,127   INFO ProjectView:611 - selected output file 'static_with_recovery_2021-05-05_16-49-52.808'
+16:52:24,377   INFO ActionRenameOutputFile:51 - rename output file static_with_recovery_2021-05-05_16-49-52.808 => static_with_recovery_1
+16:53:12,645   INFO Player:73 - Player killed!
+16:53:15,672   INFO ProjectView:611 - selected output file 'static_with_recovery_1'
+17:05:50,695   INFO Player:73 - Player killed!
+17:05:50,696   INFO ProjectView:588 - selected scenario 'static'
+17:05:50,732   INFO ProjectView:594 - repainted output table
+17:05:51,833   INFO Player:73 - Player killed!
+17:05:51,834   INFO ProjectView:588 - selected scenario 'corridor_with_recovery'
+17:05:51,910   INFO ProjectView:594 - repainted output table
+17:05:57,035   INFO Player:73 - Player killed!
+17:05:57,036   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:05:57,134   INFO ProjectView:594 - repainted output table
+17:05:59,835   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+17:05:59,836   INFO ScenarioRun:145 - Initializing scenario: static_with_recovery...
+17:05:59,837   INFO ScenarioRun:126 - scenario context initialized.
+17:05:59,837   INFO ScenarioRun:225 - no mesh static_with_recovery.poly was found.
+17:05:59,837   INFO ScenarioRun:225 - no mesh static_with_recovery_background.poly was found.
+17:05:59,838   WARN Version:76 - No version control commit hash available!
+17:05:59,874   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+17:05:59,880   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+17:05:59,899   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+17:05:59,911   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+17:05:59,921   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+17:05:59,931   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+17:05:59,940   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+17:05:59,950   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+17:05:59,959   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+17:05:59,969   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+17:05:59,978   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+17:05:59,987   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:112[ms]
+17:05:59,988   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+17:06:00,092   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:93[ms]
+17:06:00,100   INFO Simulation:259 - preLoop finished.
+17:06:02,028   INFO ActionPauseScenario:32 - all running scenarios paused
+17:06:24,951   WARN Simulation:269 - interrupt while isPaused.
+17:06:25,047   INFO Simulation:352 - Simulation interrupted.
+17:06:25,135   INFO Simulation:362 - Finished writing all output files
+17:06:25,205   INFO VadereProject:302 - SimulationResult{scenarioName='"static_with_recovery", nr_overlaps (PID4)=7543, state='"SimulationRun completed"}
+17:06:25,206   INFO ScenarioRun:261 - Simulation of scenario static_with_recovery finished.
+17:06:25,356   INFO ProjectView:142 - scenario static_with_recovery finished
+17:06:25,358   INFO Player:73 - Player killed!
+17:06:25,359   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:06:25,482   INFO ProjectView:594 - repainted output table
+17:06:25,502   INFO Player:73 - Player killed!
+17:06:25,503   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:06:25,623   INFO ProjectView:594 - repainted output table
+17:06:25,623   INFO ProjectView:168 - all running scenarios interrupted
+17:29:29,787   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+17:29:29,793   INFO ActionAbstractSaveProject:109 - save project
+17:29:36,301   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+17:29:36,302   INFO ScenarioRun:145 - Initializing scenario: static_with_recovery...
+17:29:36,303   INFO ScenarioRun:126 - scenario context initialized.
+17:29:36,303   INFO ScenarioRun:225 - no mesh static_with_recovery.poly was found.
+17:29:36,304   INFO ScenarioRun:225 - no mesh static_with_recovery_background.poly was found.
+17:29:36,305   WARN Version:76 - No version control commit hash available!
+17:29:36,337   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+17:29:36,343   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+17:29:36,361   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+17:29:36,374   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+17:29:36,386   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+17:29:36,400   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+17:29:36,409   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+17:29:36,419   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+17:29:36,429   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+17:29:36,438   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+17:29:36,448   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+17:29:36,457   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:119[ms]
+17:29:36,457   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+17:29:36,501   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:29[ms]
+17:29:36,509   INFO Simulation:259 - preLoop finished.
+17:30:04,102   INFO Simulation:362 - Finished writing all output files
+17:30:04,103   INFO ProjectView:142 - scenario static_with_recovery finished
+17:30:04,837   INFO VadereProject:302 - SimulationResult{scenarioName='"static_with_recovery", nr_overlaps (PID4)=119497, state='"SimulationRun completed"}
+17:30:04,837   INFO ScenarioRun:261 - Simulation of scenario static_with_recovery finished.
+17:30:04,838   INFO Player:73 - Player killed!
+17:30:04,838   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:30:04,931   INFO ProjectView:594 - repainted output table
+17:30:55,754   INFO Player:73 - Player killed!
+17:30:59,279   INFO ProjectView:611 - selected output file 'static_with_recovery_2021-05-05_17-29-36.302'
+17:31:16,411   INFO ActionRenameOutputFile:51 - rename output file static_with_recovery_2021-05-05_17-29-36.302 => static_with_recovery_2
+17:32:24,176   INFO Player:73 - Player killed!
+17:32:24,177   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:32:24,205   INFO ProjectView:594 - repainted output table
+17:32:29,181   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+17:32:29,184   INFO ActionAbstractSaveProject:109 - save project
+17:32:40,297   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+17:32:40,299   INFO ScenarioRun:145 - Initializing scenario: static_with_recovery...
+17:32:40,300   INFO ScenarioRun:126 - scenario context initialized.
+17:32:40,300   INFO ScenarioRun:225 - no mesh static_with_recovery.poly was found.
+17:32:40,301   INFO ScenarioRun:225 - no mesh static_with_recovery_background.poly was found.
+17:32:40,302   WARN Version:76 - No version control commit hash available!
+17:32:40,317   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+17:32:40,322   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+17:32:40,349   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+17:32:40,368   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+17:32:40,379   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+17:32:40,389   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+17:32:40,401   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+17:32:40,410   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+17:32:40,420   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+17:32:40,430   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+17:32:40,439   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+17:32:40,448   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:130[ms]
+17:32:40,449   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+17:32:40,489   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:26[ms]
+17:32:40,495   INFO Simulation:259 - preLoop finished.
+17:33:09,107   INFO Simulation:362 - Finished writing all output files
+17:33:09,108   INFO ProjectView:142 - scenario static_with_recovery finished
+17:33:09,847   INFO VadereProject:302 - SimulationResult{scenarioName='"static_with_recovery", nr_overlaps (PID4)=119497, state='"SimulationRun completed"}
+17:33:09,848   INFO ScenarioRun:261 - Simulation of scenario static_with_recovery finished.
+17:33:09,848   INFO Player:73 - Player killed!
+17:33:09,849   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:33:09,941   INFO ProjectView:594 - repainted output table
+17:33:20,268   INFO Player:73 - Player killed!
+17:33:24,839   INFO ProjectView:611 - selected output file 'static_with_recovery_2021-05-05_17-32-40.298'
+17:33:38,066   INFO ActionRenameOutputFile:51 - rename output file static_with_recovery_2021-05-05_17-32-40.298 => static_with_recovery_3
+17:34:56,908   INFO Player:73 - Player killed!
+17:34:56,911   INFO ProjectView:588 - selected scenario 'corridor_with_recovery'
+17:34:56,939   INFO ProjectView:594 - repainted output table
+17:34:57,484   INFO Player:73 - Player killed!
+17:34:57,485   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:34:57,581   INFO ProjectView:594 - repainted output table
+17:35:02,842   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+17:35:02,846   INFO ActionAbstractSaveProject:109 - save project
+17:35:04,388   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+17:35:04,390   INFO ScenarioRun:145 - Initializing scenario: static_with_recovery...
+17:35:04,390   INFO ScenarioRun:126 - scenario context initialized.
+17:35:04,391   INFO ScenarioRun:225 - no mesh static_with_recovery.poly was found.
+17:35:04,391   INFO ScenarioRun:225 - no mesh static_with_recovery_background.poly was found.
+17:35:04,393   WARN Version:76 - No version control commit hash available!
+17:35:04,413   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+17:35:04,420   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+17:35:04,442   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+17:35:04,455   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+17:35:04,466   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+17:35:04,476   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+17:35:04,487   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+17:35:04,497   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+17:35:04,506   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+17:35:04,516   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+17:35:04,525   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+17:35:04,534   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:120[ms]
+17:35:04,534   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+17:35:04,561   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:21[ms]
+17:35:04,567   INFO Simulation:259 - preLoop finished.
+17:35:37,303   INFO Simulation:362 - Finished writing all output files
+17:35:37,305   INFO ProjectView:142 - scenario static_with_recovery finished
+17:35:38,154   INFO VadereProject:302 - SimulationResult{scenarioName='"static_with_recovery", nr_overlaps (PID4)=119497, state='"SimulationRun completed"}
+17:35:38,155   INFO ScenarioRun:261 - Simulation of scenario static_with_recovery finished.
+17:35:38,155   INFO Player:73 - Player killed!
+17:35:38,156   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:35:38,238   INFO ProjectView:594 - repainted output table
+17:35:47,776   INFO Player:73 - Player killed!
+17:35:53,202   INFO ProjectView:611 - selected output file 'static_with_recovery_2021-05-05_17-35-04.389'
+17:36:05,831   INFO ActionRenameOutputFile:51 - rename output file static_with_recovery_2021-05-05_17-35-04.389 => static_with_recovery_4
+17:36:54,615   INFO Player:73 - Player killed!
+17:36:54,617   INFO ProjectView:588 - selected scenario 'corridor_with_recovery'
+17:36:54,647   INFO ProjectView:594 - repainted output table
+17:36:55,124   INFO Player:73 - Player killed!
+17:36:55,125   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:36:55,220   INFO ProjectView:594 - repainted output table
+17:37:06,476   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+17:37:06,479   INFO ActionAbstractSaveProject:109 - save project
+17:37:09,138   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+17:37:09,140   INFO ScenarioRun:145 - Initializing scenario: static_with_recovery...
+17:37:09,141   INFO ScenarioRun:126 - scenario context initialized.
+17:37:09,141   INFO ScenarioRun:225 - no mesh static_with_recovery.poly was found.
+17:37:09,142   INFO ScenarioRun:225 - no mesh static_with_recovery_background.poly was found.
+17:37:09,143   WARN Version:76 - No version control commit hash available!
+17:37:09,155   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+17:37:09,158   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/90601 [points]
+17:37:09,183   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 9061/90601 [points]
+17:37:09,203   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 18121/90601 [points]
+17:37:09,214   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 27181/90601 [points]
+17:37:09,225   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 36241/90601 [points]
+17:37:09,235   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 45301/90601 [points]
+17:37:09,245   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 54361/90601 [points]
+17:37:09,254   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 63421/90601 [points]
+17:37:09,264   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 72481/90601 [points]
+17:37:09,273   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 81541/90601 [points]
+17:37:09,283   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:127[ms]
+17:37:09,283   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+17:37:09,309   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:21[ms]
+17:37:09,315   INFO Simulation:259 - preLoop finished.
+17:37:40,697   INFO Simulation:362 - Finished writing all output files
+17:37:40,698   INFO ProjectView:142 - scenario static_with_recovery finished
+17:37:41,477   INFO VadereProject:302 - SimulationResult{scenarioName='"static_with_recovery", nr_overlaps (PID4)=119497, state='"SimulationRun completed"}
+17:37:41,477   INFO ScenarioRun:261 - Simulation of scenario static_with_recovery finished.
+17:37:41,478   INFO Player:73 - Player killed!
+17:37:41,478   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+17:37:41,584   INFO ProjectView:594 - repainted output table
+17:37:58,713   INFO Player:73 - Player killed!
+17:38:04,860   INFO ProjectView:611 - selected output file 'static_with_recovery_2021-05-05_17-37-09.140'
+17:38:17,866   INFO ActionRenameOutputFile:51 - rename output file static_with_recovery_2021-05-05_17-37-09.140 => static_with_recovery_5
+18:05:49,480   INFO Player:73 - Player killed!
+18:05:55,598   INFO ProjectView:611 - selected output file 'static_with_recovery_1'
+18:06:33,011   INFO Player:73 - Player killed!
+18:06:39,449   INFO ProjectView:611 - selected output file 'static_with_recovery_2'
+18:06:59,552   INFO Player:73 - Player killed!
+18:07:05,996   INFO ProjectView:611 - selected output file 'static_with_recovery_3'
+18:07:13,318   INFO Player:73 - Player killed!
+18:07:19,389   INFO ProjectView:611 - selected output file 'static_with_recovery_2'
+18:07:26,339   INFO Player:73 - Player killed!
+18:07:32,666   INFO ProjectView:611 - selected output file 'static_with_recovery_3'
+18:07:59,089   INFO Player:73 - Player killed!
+18:08:05,644   INFO ProjectView:611 - selected output file 'static_with_recovery_4'
+18:09:25,381   INFO ActionCloseApplication:28 - closing application...
+20:43:07,672   INFO STDOUTERR:15 - Redirect StdOut and StdErr
+20:43:07,676   INFO VadereApplication:25 - starting Vadere GUI...
+20:43:07,738   INFO VadereConfig:66 - Use config file from path /Users/longtaoliu/.config/vadere.conf
+20:43:11,257   INFO IOVadere:57 - read project: /Users/longtaoliu/Vadere/task1/Vadere/vadere.project
+20:43:11,326   INFO IOVadere:67 - analyzed scenario files.
+20:43:18,113   INFO IOVadere:88 - analyzed: 18, migrated: 0, upToDate: 18, notMigratable: 0
+20:43:24,186   INFO IOVadere:93 - project loaded: task1
+20:43:24,192   INFO ActionLoadProject:113 - refreshed output table - 2
+20:43:24,194   INFO ProjectView:588 - selected scenario 'Chicken_testOSM'
+20:43:24,403   INFO DataProcessingView:97 - switch to gui view
+20:43:24,629   INFO ProjectView:594 - repainted output table
+20:43:24,630   INFO ActionLoadProject:117 - selected the first scenario
+20:43:24,636   INFO ActionLoadProject:124 - project 'task1' loaded.
+20:43:39,071   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+20:43:39,171   INFO ProjectView:594 - repainted output table
+20:43:45,371   WARN Version:76 - No version control commit hash available!
+20:43:45,376   INFO ActionCloneScenario:42 - clone scenario: static_with_recovery => static_with_recovery_clone_1
+20:43:45,377   INFO ProjectView:588 - selected scenario 'static_with_recovery_clone_1'
+20:43:45,467   INFO ProjectView:594 - repainted output table
+20:43:53,948   WARN Version:76 - No version control commit hash available!
+20:43:53,953   INFO ActionRenameScenario:64 - rename scenario: static_with_recovery_clone_1 => supermarket
+20:43:55,487   INFO ProjectView:588 - selected scenario 'supermarket'
+20:43:55,569   INFO ProjectView:594 - repainted output table
+20:46:34,433   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+20:46:34,443   INFO ActionAbstractSaveProject:109 - save project
+20:50:13,364   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+20:50:13,368   INFO ActionAbstractSaveProject:109 - save project
+20:50:34,766   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+20:50:34,771   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+20:50:34,796   INFO ScenarioRun:126 - scenario context initialized.
+20:50:34,803   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+20:50:34,805   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+20:50:34,860   WARN Version:76 - No version control commit hash available!
+20:50:34,962   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+20:50:34,978   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+20:50:35,195   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+20:50:35,302   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+20:50:35,405   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+20:50:35,509   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+20:50:35,620   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+20:50:35,791   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+20:50:35,991   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+20:50:36,097   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+20:50:36,199   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+20:50:36,533   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1567[ms]
+20:50:36,538   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+20:50:36,929   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:320[ms]
+20:50:37,156   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:198[ms]
+20:50:37,345   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:163[ms]
+20:50:37,521   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:159[ms]
+20:50:37,671   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+20:50:37,835   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+20:50:37,998   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+20:50:38,169   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:159[ms]
+20:50:38,334   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:153[ms]
+20:50:38,485   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+20:50:38,663   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:163[ms]
+20:50:38,881   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:207[ms]
+20:50:39,040   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+20:50:39,187   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:135[ms]
+20:50:39,326   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:128[ms]
+20:50:39,473   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+20:50:39,627   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+20:50:39,797   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:159[ms]
+20:50:39,813   INFO Simulation:259 - preLoop finished.
+20:50:54,319   INFO Simulation:362 - Finished writing all output files
+20:50:54,321   INFO ProjectView:142 - scenario supermarket finished
+20:50:54,427   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+20:50:54,428   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+20:50:54,429   INFO ProjectView:588 - selected scenario 'supermarket'
+20:50:54,586   INFO ProjectView:594 - repainted output table
+20:57:30,267 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,269 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,270 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,270 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,271 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,271 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,271 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,271 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,271 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,272 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,272 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,272 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,272 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,272 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,272 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,273 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,273 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,273 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,274 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,274 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,274 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,274 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,275 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,275 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,275 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,275 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,275 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,276 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,276 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,276 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,276 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,276 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,277 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,277 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,277 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,277 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,277 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,289 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,293 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,297 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,300 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,303 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,304 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,305 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,305 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,305 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,305 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,305 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,305 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,306 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,306 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,306 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,306 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,307 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,307 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,307 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,307 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,308 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,308 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,308 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,308 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,309 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,309 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,309 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,310 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,310 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,310 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,310 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,311 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,311 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,311 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,311 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,311 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,311 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,312 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,312 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,312 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,312 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,312 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,313 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,313 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,313 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,313 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,313 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,313 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,313 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,313 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,313 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,314 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,314 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,314 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,314 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,314 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,314 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,314 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,314 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,315 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,315 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,315 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,315 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,315 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,315 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,315 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,315 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,315 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,316 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,316 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,316 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,316 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,316 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,316 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,319 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,319 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,319 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,320 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,320 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,320 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,320 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,320 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,320 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,320 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,320 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,321 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,321 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,321 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,321 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,321 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,321 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,321 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,321 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,322 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,322 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,322 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,322 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,322 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,322 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,322 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,322 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,322 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,323 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,323 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,323 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,323 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,323 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,323 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,323 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,323 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,323 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,326 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,327 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,327 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,327 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,327 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,327 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,327 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,327 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,327 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,327 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,328 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,329 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,330 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,330 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,330 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,330 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,330 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,330 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,330 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,334 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,334 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,334 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,334 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,335 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,335 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,335 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,335 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,335 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,335 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,335 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,335 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,335 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,335 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,335 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,336 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,337 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,342 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,343 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,343 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,343 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,343 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,343 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,343 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,343 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,343 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,344 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,344 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,344 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,344 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,344 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,344 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,344 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,344 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,344 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,345 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,346 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,346 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,346 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,346 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,346 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,346 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,346 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,346 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,346 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,350 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,351 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,351 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,351 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,351 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,351 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,351 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,351 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,351 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,351 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,351 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,352 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,353 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,360 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,360 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,360 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,360 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,360 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,360 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,360 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,360 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,360 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,361 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,361 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,361 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,361 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,362 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,363 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,364 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,367 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,367 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,367 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,367 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,368 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,368 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,368 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,368 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,368 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,368 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,368 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,368 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,368 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,368 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,368 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,368 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,369 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,370 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,370 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,370 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,370 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,370 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,370 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,370 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,370 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,370 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,375 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,375 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,376 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,376 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,376 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,376 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,376 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,376 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,376 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,376 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,376 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,376 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,377 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,378 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,383 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,383 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,383 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,383 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,383 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,384 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,384 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,384 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,385 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,386 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,386 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,386 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,386 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,386 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,386 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,391 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,392 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,392 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,392 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,392 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,392 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,392 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,392 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,392 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,392 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,392 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,392 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,392 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,393 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,394 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,399 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,399 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,400 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,400 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,400 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,400 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,400 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,400 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,400 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,400 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,400 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,400 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,400 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,400 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,400 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,400 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,401 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,402 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,407 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,407 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,408 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,408 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,408 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,408 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,408 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,408 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,408 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,408 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,408 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,408 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,408 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,408 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,408 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,409 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,410 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,410 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,410 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,410 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,410 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,415 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,415 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,415 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,415 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,415 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,415 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,415 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,416 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,417 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,423 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,423 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,423 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,423 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,423 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,423 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,423 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,423 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,424 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,425 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,431 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,431 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,431 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,432 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,432 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,432 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,432 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,432 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,432 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,432 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,432 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,432 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,432 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,432 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,432 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,432 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,433 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,434 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,434 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,434 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,434 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,434 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,434 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,434 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,434 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,439 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,439 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,439 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,439 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,440 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,440 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,440 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,440 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,441 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,447 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,448 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,448 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,448 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,448 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,448 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,448 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,448 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,449 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,463 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,463 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,463 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,463 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,463 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,463 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,463 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,463 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,463 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,463 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,463 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,463 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,463 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,463 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,463 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,464 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,465 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,465 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,505 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,506 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,506 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,506 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,506 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,506 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,506 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,507 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,507 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,507 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,507 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,507 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,507 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,507 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,507 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,507 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,508 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,509 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,510 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,629 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,629 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,629 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,629 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,629 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,629 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,629 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,630 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,630 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,630 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,630 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,630 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,630 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,631 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,631 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,631 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,631 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,631 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,631 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,631 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,631 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,631 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,632 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,632 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,632 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,632 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,632 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,632 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,632 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,632 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,632 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,633 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,633 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,633 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,633 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,633 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,633 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,702 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,702 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,702 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,702 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,703 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,703 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,703 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseDragged(SelectElementMode.java:90)
+20:57:30,703 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseMotionEvent(Component.java:6683)
+20:57:30,703 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3360)
+20:57:30,703 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6404)
+20:57:30,703 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,703 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,703 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4564)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,704 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,705 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,706 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,706 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,706 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,706 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+20:57:30,713 STDERR STDOUTERR:32 - Exception in thread "AWT-EventQueue-0" 
+20:57:30,713 STDERR STDOUTERR:32 - java.lang.IllegalArgumentException: Width and height have to be positive.
+20:57:30,713 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.<init>(VRectangle.java:33)
+20:57:30,713 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:159)
+20:57:30,713 STDERR STDOUTERR:32 - 	at org.vadere.util.geometry.shapes.VRectangle.resize(VRectangle.java:14)
+20:57:30,713 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.model.TopographyCreatorModel.resize(TopographyCreatorModel.java:368)
+20:57:30,713 STDERR STDOUTERR:32 - 	at org.vadere.gui.topographycreator.control.SelectElementMode.mouseReleased(SelectElementMode.java:106)
+20:57:30,713 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+20:57:30,713 STDERR STDOUTERR:32 - 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+20:57:30,713 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+20:57:30,714 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+20:57:30,715 STDERR STDOUTERR:32 - 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+21:00:42,011   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+21:00:42,015   INFO ActionAbstractSaveProject:109 - save project
+21:00:43,826   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+21:00:43,828   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+21:00:43,828   INFO ScenarioRun:126 - scenario context initialized.
+21:00:43,828   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+21:00:43,829   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+21:00:43,829   WARN Version:76 - No version control commit hash available!
+21:00:43,845   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+21:00:43,860   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+21:00:44,020   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+21:00:44,122   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+21:00:44,238   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+21:00:44,340   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+21:00:44,455   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+21:00:44,556   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+21:00:44,657   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+21:00:44,770   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+21:00:44,871   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+21:00:44,992   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1145[ms]
+21:00:44,992   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+21:00:45,161   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:159[ms]
+21:00:45,352   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:180[ms]
+21:00:45,506   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:00:45,701   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:185[ms]
+21:00:45,859   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+21:00:46,030   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:161[ms]
+21:00:46,194   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:153[ms]
+21:00:46,379   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:173[ms]
+21:00:46,585   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:195[ms]
+21:00:46,829   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:230[ms]
+21:00:47,042   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:201[ms]
+21:00:47,200   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:00:47,375   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:163[ms]
+21:00:47,528   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+21:00:47,684   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:00:47,841   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+21:00:48,026   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:174[ms]
+21:00:48,212   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+21:00:48,223   INFO Simulation:259 - preLoop finished.
+21:00:48,800   INFO ActionPauseScenario:32 - all running scenarios paused
+21:01:56,530   INFO Simulation:362 - Finished writing all output files
+21:01:56,530   INFO ProjectView:142 - scenario supermarket finished
+21:01:56,651   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+21:01:56,651   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+21:01:56,652   INFO ProjectView:588 - selected scenario 'supermarket'
+21:01:56,819   INFO ProjectView:594 - repainted output table
+21:02:21,926   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+21:02:21,928   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+21:02:21,928   INFO ScenarioRun:126 - scenario context initialized.
+21:02:21,929   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+21:02:21,929   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+21:02:21,930   WARN Version:76 - No version control commit hash available!
+21:02:21,949   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+21:02:21,965   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+21:02:22,094   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+21:02:22,194   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+21:02:22,311   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+21:02:22,411   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+21:02:22,526   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+21:02:22,627   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+21:02:22,727   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+21:02:22,841   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+21:02:22,941   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+21:02:23,054   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1104[ms]
+21:02:23,054   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+21:02:23,210   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+21:02:23,384   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:163[ms]
+21:02:23,533   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+21:02:23,695   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:151[ms]
+21:02:23,869   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:159[ms]
+21:02:24,031   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+21:02:24,216   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+21:02:24,408   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:180[ms]
+21:02:24,696   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:276[ms]
+21:02:24,856   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+21:02:25,048   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:180[ms]
+21:02:25,204   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:02:25,377   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:160[ms]
+21:02:25,526   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+21:02:25,678   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+21:02:25,839   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+21:02:26,026   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+21:02:26,212   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:174[ms]
+21:02:26,218   INFO Simulation:259 - preLoop finished.
+21:02:27,695   INFO ActionPauseScenario:32 - all running scenarios paused
+21:03:16,242   INFO Simulation:362 - Finished writing all output files
+21:03:16,243   INFO ProjectView:142 - scenario supermarket finished
+21:03:16,303   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+21:03:16,304   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+21:03:16,305   INFO ProjectView:588 - selected scenario 'supermarket'
+21:03:16,481   INFO ProjectView:594 - repainted output table
+21:04:06,642   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+21:04:06,645   INFO ActionAbstractSaveProject:109 - save project
+21:04:07,231   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+21:04:07,233   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+21:04:07,234   INFO ScenarioRun:126 - scenario context initialized.
+21:04:07,234   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+21:04:07,235   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+21:04:07,235   WARN Version:76 - No version control commit hash available!
+21:04:07,247   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+21:04:07,260   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+21:04:07,386   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+21:04:07,503   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+21:04:07,605   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+21:04:07,708   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+21:04:07,824   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+21:04:07,925   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+21:04:08,041   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+21:04:08,143   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+21:04:08,244   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+21:04:08,362   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1115[ms]
+21:04:08,362   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+21:04:08,595   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:223[ms]
+21:04:08,775   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:168[ms]
+21:04:08,925   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+21:04:09,070   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:135[ms]
+21:04:09,224   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:04:09,384   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+21:04:09,547   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:152[ms]
+21:04:09,794   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:235[ms]
+21:04:09,976   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:171[ms]
+21:04:10,130   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+21:04:10,315   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:174[ms]
+21:04:10,469   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+21:04:10,638   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:157[ms]
+21:04:10,783   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:133[ms]
+21:04:10,928   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:134[ms]
+21:04:11,083   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+21:04:11,256   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:162[ms]
+21:04:11,437   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+21:04:11,442   INFO Simulation:259 - preLoop finished.
+21:04:13,446   INFO ActionPauseScenario:32 - all running scenarios paused
+21:04:58,029   INFO Simulation:362 - Finished writing all output files
+21:04:58,030   INFO ProjectView:142 - scenario supermarket finished
+21:04:58,097   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=2, state='"SimulationRun completed"}
+21:04:58,097   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+21:04:58,098   INFO ProjectView:588 - selected scenario 'supermarket'
+21:04:58,320   INFO ProjectView:594 - repainted output table
+21:05:03,077   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+21:05:03,080   INFO ActionAbstractSaveProject:109 - save project
+21:06:23,665   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+21:06:23,669   INFO ActionAbstractSaveProject:109 - save project
+21:06:25,089   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+21:06:25,094   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+21:06:25,095   INFO ScenarioRun:126 - scenario context initialized.
+21:06:25,096   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+21:06:25,096   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+21:06:25,101   WARN Version:76 - No version control commit hash available!
+21:06:25,120   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+21:06:25,159   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+21:06:25,301   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+21:06:25,427   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+21:06:25,531   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+21:06:25,647   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+21:06:25,749   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+21:06:25,869   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+21:06:25,974   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+21:06:26,079   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+21:06:26,198   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+21:06:26,311   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1191[ms]
+21:06:26,311   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+21:06:26,472   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:151[ms]
+21:06:26,653   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:171[ms]
+21:06:26,806   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+21:06:26,995   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:178[ms]
+21:06:27,149   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:06:27,309   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+21:06:27,475   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:156[ms]
+21:06:27,676   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:190[ms]
+21:06:27,876   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:185[ms]
+21:06:28,035   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+21:06:28,229   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:183[ms]
+21:06:28,383   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+21:06:28,553   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:159[ms]
+21:06:28,703   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+21:06:28,959   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+21:06:29,118   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+21:06:29,300   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+21:06:29,486   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+21:06:29,491   INFO Simulation:259 - preLoop finished.
+21:06:31,795   INFO ActionPauseScenario:32 - all running scenarios paused
+21:06:59,633   INFO ActionPauseScenario:32 - all running scenarios paused
+21:07:10,034   INFO Simulation:362 - Finished writing all output files
+21:07:10,035   INFO ProjectView:142 - scenario supermarket finished
+21:07:10,105   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=3, state='"SimulationRun completed"}
+21:07:10,106   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+21:07:10,107   INFO ProjectView:588 - selected scenario 'supermarket'
+21:07:10,335   INFO ProjectView:594 - repainted output table
+21:09:34,818   WARN Version:76 - No version control commit hash available!
+21:09:34,819   INFO ActionCloneScenario:42 - clone scenario: supermarket => supermarket_clone_1
+21:09:34,820   INFO ProjectView:588 - selected scenario 'supermarket_clone_1'
+21:09:35,071   INFO ProjectView:594 - repainted output table
+21:09:55,954   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+21:09:55,957   INFO ActionAbstractSaveProject:109 - save project
+21:11:04,874   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+21:11:04,877   INFO ActionAbstractSaveProject:109 - save project
+21:11:08,999   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+21:11:09,001   INFO ScenarioRun:145 - Initializing scenario: supermarket_clone_1...
+21:11:09,001   INFO ScenarioRun:126 - scenario context initialized.
+21:11:09,002   INFO ScenarioRun:225 - no mesh supermarket_clone_1.poly was found.
+21:11:09,002   INFO ScenarioRun:225 - no mesh supermarket_clone_1_background.poly was found.
+21:11:09,005   WARN Version:76 - No version control commit hash available!
+21:11:09,054   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+21:11:09,071   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+21:11:09,200   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+21:11:09,316   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+21:11:09,451   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+21:11:09,550   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+21:11:09,649   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+21:11:09,784   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+21:11:09,885   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+21:11:09,991   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+21:11:10,135   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+21:11:10,241   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1185[ms]
+21:11:10,242   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+21:11:10,408   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:156[ms]
+21:11:10,577   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:160[ms]
+21:11:10,732   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+21:11:10,942   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:199[ms]
+21:11:11,099   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+21:11:11,270   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:159[ms]
+21:11:11,426   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:11:11,607   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+21:11:11,788   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:168[ms]
+21:11:11,945   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+21:11:12,133   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:177[ms]
+21:11:12,289   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+21:11:12,458   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+21:11:12,618   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+21:11:12,769   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+21:11:13,067   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+21:11:13,226   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+21:11:13,414   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:177[ms]
+21:11:13,420   INFO Simulation:259 - preLoop finished.
+21:11:14,373   INFO ActionPauseScenario:32 - all running scenarios paused
+21:11:18,415   INFO ActionPauseScenario:32 - all running scenarios paused
+21:12:08,735   INFO Simulation:362 - Finished writing all output files
+21:12:08,736   INFO ProjectView:142 - scenario supermarket_clone_1 finished
+21:12:08,806   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket_clone_1", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+21:12:08,807   INFO ScenarioRun:261 - Simulation of scenario supermarket_clone_1 finished.
+21:12:08,808   INFO ProjectView:588 - selected scenario 'supermarket_clone_1'
+21:12:09,068   INFO ProjectView:594 - repainted output table
+21:12:17,402   INFO ProjectView:588 - selected scenario 'supermarket'
+21:12:17,701   INFO ProjectView:594 - repainted output table
+21:12:21,179   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+21:12:21,184   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+21:12:21,184   INFO ScenarioRun:126 - scenario context initialized.
+21:12:21,184   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+21:12:21,185   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+21:12:21,187   WARN Version:76 - No version control commit hash available!
+21:12:21,232   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+21:12:21,246   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+21:12:21,374   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+21:12:21,520   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+21:12:21,625   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+21:12:21,739   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+21:12:21,882   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+21:12:21,988   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+21:12:22,126   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+21:12:22,233   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+21:12:22,340   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+21:12:22,476   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1243[ms]
+21:12:22,476   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+21:12:22,631   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:12:22,817   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+21:12:22,969   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+21:12:23,120   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+21:12:23,274   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+21:12:23,434   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+21:12:23,603   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+21:12:23,784   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+21:12:23,971   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:176[ms]
+21:12:24,236   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:253[ms]
+21:12:24,428   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:181[ms]
+21:12:24,583   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+21:12:24,751   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+21:12:24,902   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+21:12:25,055   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+21:12:25,217   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+21:12:25,398   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+21:12:25,585   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:176[ms]
+21:12:25,590   INFO Simulation:259 - preLoop finished.
+21:12:39,907   INFO Simulation:362 - Finished writing all output files
+21:12:39,907   INFO ProjectView:142 - scenario supermarket finished
+21:12:39,972   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=3, state='"SimulationRun completed"}
+21:12:39,972   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+21:12:39,973   INFO ProjectView:588 - selected scenario 'supermarket'
+21:12:40,286   INFO ProjectView:594 - repainted output table
+21:38:33,635   INFO ProjectView:588 - selected scenario 'supermarket_clone_1'
+21:38:34,096   INFO ProjectView:594 - repainted output table
+21:39:35,458   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+21:39:35,535   INFO ProjectView:594 - repainted output table
+21:39:36,267   INFO ProjectView:588 - selected scenario 'supermarket'
+21:39:36,689   INFO ProjectView:594 - repainted output table
+21:39:44,978   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+21:39:44,979   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+21:39:44,980   INFO ScenarioRun:126 - scenario context initialized.
+21:39:44,980   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+21:39:44,980   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+21:39:44,981   WARN Version:76 - No version control commit hash available!
+21:39:44,993   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+21:39:45,005   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+21:39:45,147   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+21:39:45,268   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+21:39:45,373   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+21:39:45,496   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+21:39:45,600   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+21:39:45,705   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+21:39:45,824   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+21:39:45,936   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+21:39:46,046   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+21:39:46,179   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1186[ms]
+21:39:46,180   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+21:39:46,335   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:39:46,518   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:171[ms]
+21:39:46,669   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+21:39:46,820   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+21:39:46,975   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+21:39:47,133   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+21:39:47,299   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:154[ms]
+21:39:47,482   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+21:39:47,670   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:177[ms]
+21:39:47,836   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:156[ms]
+21:39:48,026   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:179[ms]
+21:39:48,182   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+21:39:48,456   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:262[ms]
+21:39:48,610   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:39:48,763   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+21:39:48,920   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+21:39:49,101   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+21:39:49,285   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:173[ms]
+21:39:49,292   INFO Simulation:259 - preLoop finished.
+21:39:50,455   INFO ActionPauseScenario:32 - all running scenarios paused
+21:40:37,163   INFO Simulation:362 - Finished writing all output files
+21:40:37,164   INFO ProjectView:142 - scenario supermarket finished
+21:40:37,228   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=3, state='"SimulationRun completed"}
+21:40:37,229   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+21:40:37,230   INFO ProjectView:588 - selected scenario 'supermarket'
+21:40:37,652   INFO ProjectView:594 - repainted output table
+21:41:33,868   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+21:41:33,872   INFO ActionAbstractSaveProject:109 - save project
+21:41:37,230   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+21:41:37,231   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+21:41:37,231   INFO ScenarioRun:126 - scenario context initialized.
+21:41:37,232   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+21:41:37,232   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+21:41:37,233   WARN Version:76 - No version control commit hash available!
+21:41:37,242   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+21:41:37,255   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+21:41:37,378   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+21:41:37,496   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+21:41:37,600   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+21:41:37,703   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+21:41:37,831   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+21:41:37,945   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+21:41:38,054   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+21:41:38,177   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+21:41:38,285   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+21:41:38,397   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1154[ms]
+21:41:38,398   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+21:41:38,564   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+21:41:38,745   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:169[ms]
+21:41:38,896   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+21:41:39,081   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+21:41:39,236   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:41:39,394   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+21:41:39,560   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:154[ms]
+21:41:39,744   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:173[ms]
+21:41:39,930   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+21:41:40,087   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+21:41:40,279   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:181[ms]
+21:41:40,433   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+21:41:40,601   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+21:41:40,749   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+21:41:40,899   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+21:41:41,057   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+21:41:41,239   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:171[ms]
+21:41:41,559   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:309[ms]
+21:41:41,563   INFO Simulation:259 - preLoop finished.
+21:41:45,818   INFO ActionPauseScenario:32 - all running scenarios paused
+21:42:08,179   INFO Simulation:362 - Finished writing all output files
+21:42:08,180   INFO ProjectView:142 - scenario supermarket finished
+21:42:08,242   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+21:42:08,243   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+21:42:08,244   INFO ProjectView:588 - selected scenario 'supermarket'
+21:42:08,692   INFO ProjectView:594 - repainted output table
+21:42:26,704   INFO ProjectView:611 - selected output file 'supermarket_2021-05-05_21-41-37.231'
+21:42:41,227   INFO ActionRenameOutputFile:51 - rename output file supermarket_2021-05-05_21-41-37.231 => supermarket_1
+21:42:52,281   INFO Player:73 - Player killed!
+21:42:58,500   INFO ProjectView:611 - selected output file 'supermarket_1'
+21:42:58,589   INFO Player:73 - Player killed!
+21:42:58,589   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+21:42:58,608   INFO ProjectView:594 - repainted output table
+21:42:58,608   INFO Player:73 - Player killed!
+21:42:58,609   INFO ProjectView:588 - selected scenario 'supermarket'
+21:42:59,026   INFO ProjectView:594 - repainted output table
+21:43:26,314   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+21:43:26,317   INFO ActionAbstractSaveProject:109 - save project
+21:45:49,196   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+21:45:49,198   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+21:45:49,198   INFO ScenarioRun:126 - scenario context initialized.
+21:45:49,198   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+21:45:49,198   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+21:45:49,199   WARN Version:76 - No version control commit hash available!
+21:45:49,210   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+21:45:49,223   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+21:45:49,348   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+21:45:49,466   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+21:45:49,594   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+21:45:49,702   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+21:45:49,814   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+21:45:49,937   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+21:45:50,042   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+21:45:50,150   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+21:45:50,265   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+21:45:50,395   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1184[ms]
+21:45:50,395   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+21:45:50,556   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+21:45:50,737   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:171[ms]
+21:45:50,890   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+21:45:51,040   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+21:45:51,196   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+21:45:51,355   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+21:45:51,522   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:155[ms]
+21:45:51,707   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:174[ms]
+21:45:51,893   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:176[ms]
+21:45:52,062   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+21:45:52,252   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:179[ms]
+21:45:52,501   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:238[ms]
+21:45:52,670   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+21:45:52,821   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+21:45:52,973   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+21:45:53,133   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+21:45:53,312   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:168[ms]
+21:45:53,501   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:178[ms]
+21:45:53,508   INFO Simulation:259 - preLoop finished.
+21:46:07,797   INFO Simulation:362 - Finished writing all output files
+21:46:07,798   INFO ProjectView:142 - scenario supermarket finished
+21:46:07,865   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=3, state='"SimulationRun completed"}
+21:46:07,866   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+21:46:07,866   INFO Player:73 - Player killed!
+21:46:07,867   INFO ProjectView:588 - selected scenario 'supermarket'
+21:46:08,346   INFO ProjectView:594 - repainted output table
+21:47:13,770   INFO Player:73 - Player killed!
+21:47:20,390   INFO ProjectView:611 - selected output file 'supermarket_2021-05-05_21-45-49.197'
+21:47:33,365   INFO ActionRenameOutputFile:51 - rename output file supermarket_2021-05-05_21-45-49.197 => supermarket_2
+21:47:47,960   INFO Player:73 - Player killed!
+21:47:47,962   INFO ProjectView:588 - selected scenario 'supermarket'
+21:47:47,991   INFO ProjectView:594 - repainted output table
+21:47:51,889   WARN Version:76 - No version control commit hash available!
+21:47:51,890   INFO ActionCloneScenario:42 - clone scenario: supermarket => supermarket_clone_1
+21:47:51,890   INFO Player:73 - Player killed!
+21:47:51,891   INFO ProjectView:588 - selected scenario 'supermarket_clone_1'
+21:47:52,439   INFO ProjectView:594 - repainted output table
+21:48:11,360   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+21:48:11,363   INFO ActionAbstractSaveProject:109 - save project
+21:48:13,181   INFO ActionCloseApplication:28 - closing application...

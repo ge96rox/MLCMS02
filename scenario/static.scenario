@@ -99,21 +99,22 @@
         }
       },
       "org.vadere.state.attributes.models.AttributesSIRG" : {
-        "infectionsAtStart" : 2,
-        "infectionRate" : 0.01,
-        "infectionMaxDistance" : 1.0
+        "infectionsAtStart" : 10,
+        "infectionRate" : 0.05,
+        "infectionMaxDistance" : 1.0,
+        "recoveryRate" : 0.0
       }
     },
     "attributesSimulation" : {
       "finishTime" : 150.0,
-      "simTimeStepLength" : 0.4,
+      "simTimeStepLength" : 0.5,
       "realTimeSimTimeRatio" : 0.1,
       "writeSimulationData" : true,
       "visualizationEnabled" : true,
       "printFPS" : false,
       "digitsPerCoordinate" : 2,
       "useFixedSeed" : true,
-      "fixedSeed" : -4963862176898590498,
+      "fixedSeed" : 8735595948470359211,
       "simulationSeed" : 0
     },
     "attributesPsychology" : {
