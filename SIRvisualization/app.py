@@ -100,7 +100,7 @@ def update_figure(selected_values):
             figures.extend(scatter)
     if len(figures) > 0:
         fig = go.Figure(data=figures)
-        fig.update_layout(title='Susceptible / Infected / Removed')
+        fig.update_layout(title='Susceptible / Infected / Recovered')
         return fig
 
     raise PreventUpdate
@@ -130,4 +130,4 @@ def update_files(btn0, folder_path):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)

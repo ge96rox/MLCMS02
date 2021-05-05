@@ -7,18 +7,20 @@ import plotly.graph_objects as go
 
 def file_df_to_count_df(df,
                         ID_SUSCEPTIBLE=1,
-                        ID_INFECTED=0):
+                        ID_INFECTED=0,
+                        ID_RECOVERED=2):
     """
     Converts the file DataFrame to a group count DataFrame that can be plotted.
     The ID_SUSCEPTIBLE and ID_INFECTED specify which ids the groups have in the Vadere processor file.
     """
     pedestrian_ids = df['pedestrianId'].unique()
     sim_times = df['simTime'].unique()
-    group_counts = pd.DataFrame(columns=['simTime', 'group-s', 'group-i', 'group-r'])
+    group_counts = pd.DataFrame(columns=['simTime', 'group-s', 'group-i', 'group-r', 'group-re'])
     group_counts['simTime'] = sim_times
     group_counts['group-s'] = 0
     group_counts['group-i'] = 0
     group_counts['group-r'] = 0
+    group_counts['group-re'] = 0
 
     for pid in pedestrian_ids:
         simtime_group = df[df['pedestrianId'] == pid][['simTime', 'groupId-PID5']].values
@@ -29,7 +31,12 @@ def file_df_to_count_df(df,
                 current_state = g
                 group_counts.loc[group_counts['simTime'] > st, 'group-s'] -= 1
                 group_counts.loc[group_counts['simTime'] > st, 'group-i'] += 1
+            if g != current_state and g == ID_RECOVERED and current_state == ID_INFECTED:
+                current_state = g
+                group_counts.loc[group_counts['simTime'] > st, 'group-i'] -= 1
+                group_counts.loc[group_counts['simTime'] > st, 'group-re'] += 1
                 break
+
     return group_counts
 
 
@@ -48,9 +55,10 @@ def create_folder_data_scatter(folder):
 
     ID_SUSCEPTIBLE = 1
     ID_INFECTED = 0
-    ID_REMOVED = 2
 
-    group_counts = file_df_to_count_df(data, ID_INFECTED=ID_INFECTED, ID_SUSCEPTIBLE=ID_SUSCEPTIBLE)
+    ID_RECOVERED = 2
+
+    group_counts = file_df_to_count_df(data, ID_INFECTED=ID_INFECTED, ID_SUSCEPTIBLE=ID_SUSCEPTIBLE, ID_RECOVERED=ID_RECOVERED)
     # group_counts.plot()
     scatter_s = go.Scatter(x=group_counts['simTime'],
                            y=group_counts['group-s'],
@@ -60,4 +68,9 @@ def create_folder_data_scatter(folder):
                            y=group_counts['group-i'],
                            name='infected ' + os.path.basename(folder),
                            mode='lines')
-    return [scatter_s, scatter_i], group_counts
+    scatter_re = go.Scatter(x=group_counts['simTime'],
+                            y=group_counts['group-re'],
+                            name='recovered' + os.path.basename(folder),
+                            mode='lines')
+    return [scatter_s, scatter_i, scatter_re], group_counts
+
