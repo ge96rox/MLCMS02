@@ -102,7 +102,8 @@
         "infectionsAtStart" : 10,
         "infectionRate" : 0.1,
         "infectionMaxDistance" : 1.0,
-        "recoveryRate" : 0.01
+        "recoveryRate" : 0.01,
+        "simTimeStepLength" : 0.5
       }
     },
     "attributesSimulation" : {

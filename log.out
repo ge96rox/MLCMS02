@@ -6380,3 +6380,1022 @@ java.lang.NullPointerException: null
 21:48:11,360   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
 21:48:11,363   INFO ActionAbstractSaveProject:109 - save project
 21:48:13,181   INFO ActionCloseApplication:28 - closing application...
+11:03:58,888   INFO STDOUTERR:15 - Redirect StdOut and StdErr
+11:03:58,893   INFO VadereApplication:25 - starting Vadere GUI...
+11:03:58,926   INFO VadereConfig:66 - Use config file from path /Users/longtaoliu/.config/vadere.conf
+11:04:02,251   INFO IOVadere:57 - read project: /Users/longtaoliu/Vadere/task1/Vadere/vadere.project
+11:04:02,330   INFO IOVadere:67 - analyzed scenario files.
+11:04:08,860   INFO IOVadere:88 - analyzed: 22, migrated: 0, upToDate: 22, notMigratable: 0
+11:04:14,636   INFO IOVadere:93 - project loaded: task1
+11:04:14,642   INFO ActionLoadProject:113 - refreshed output table - 2
+11:04:14,644   INFO ProjectView:588 - selected scenario 'Chicken_testOSM'
+11:04:14,833   INFO DataProcessingView:97 - switch to gui view
+11:04:15,027   INFO ProjectView:594 - repainted output table
+11:04:15,028   INFO ActionLoadProject:117 - selected the first scenario
+11:04:15,033   INFO ActionLoadProject:124 - project 'task1' loaded.
+11:07:06,990   INFO ProjectView:588 - selected scenario 't41'
+11:07:07,095   INFO ProjectView:594 - repainted output table
+11:16:45,741   INFO ProjectView:588 - selected scenario 'supermarket'
+11:16:46,006   INFO ProjectView:594 - repainted output table
+11:16:58,098   INFO ProjectView:588 - selected scenario 'static'
+11:16:58,180   INFO ProjectView:594 - repainted output table
+11:17:03,969   INFO ProjectView:588 - selected scenario 'corridor_with_recovery'
+11:17:04,044   INFO ProjectView:594 - repainted output table
+11:17:04,754   INFO ProjectView:588 - selected scenario 'static_with_recovery'
+11:17:04,843   INFO ProjectView:594 - repainted output table
+11:17:07,412   INFO ProjectView:588 - selected scenario 'supermarket'
+11:17:07,824   INFO ProjectView:594 - repainted output table
+11:17:13,934   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:17:13,941   INFO ActionAbstractSaveProject:109 - save project
+11:17:33,136   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+11:17:33,140   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+11:17:33,165   INFO ScenarioRun:126 - scenario context initialized.
+11:17:33,169   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+11:17:33,169   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+11:17:33,204   WARN Version:76 - No version control commit hash available!
+11:17:33,308   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:17:33,322   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+11:17:33,566   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+11:17:33,656   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+11:17:33,736   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+11:17:33,818   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+11:17:33,901   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+11:17:33,985   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+11:17:34,141   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+11:17:34,434   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+11:17:34,531   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+11:17:34,618   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1308[ms]
+11:17:34,622   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:17:34,952   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:278[ms]
+11:17:35,130   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:164[ms]
+11:17:35,278   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:135[ms]
+11:17:35,574   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:237[ms]
+11:17:35,794   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:194[ms]
+11:17:36,022   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:200[ms]
+11:17:36,256   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:213[ms]
+11:17:36,513   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:233[ms]
+11:17:36,749   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:213[ms]
+11:17:36,906   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:17:37,172   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:254[ms]
+11:17:37,334   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:151[ms]
+11:17:37,502   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:157[ms]
+11:17:37,649   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+11:17:37,797   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+11:17:37,954   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+11:17:38,129   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:165[ms]
+11:17:38,401   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:261[ms]
+11:17:38,412   INFO Simulation:259 - preLoop finished.
+11:17:40,506   INFO ActionPauseScenario:32 - all running scenarios paused
+11:17:57,560   INFO ActionPauseScenario:32 - all running scenarios paused
+11:18:04,668   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:18:04,673   INFO ActionAbstractSaveProject:109 - save project
+11:18:16,125   INFO Simulation:362 - Finished writing all output files
+11:18:16,128   INFO ProjectView:142 - scenario supermarket finished
+11:18:16,209   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=3, state='"SimulationRun completed"}
+11:18:16,210   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+11:18:16,211   INFO ProjectView:588 - selected scenario 'supermarket'
+11:18:16,500   INFO ProjectView:594 - repainted output table
+11:18:40,960   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:18:40,965   INFO ActionAbstractSaveProject:109 - save project
+11:18:49,585   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+11:18:49,587   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+11:18:49,587   INFO ScenarioRun:126 - scenario context initialized.
+11:18:49,588   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+11:18:49,588   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+11:18:49,589   WARN Version:76 - No version control commit hash available!
+11:18:49,612   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:18:49,620   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+11:18:49,811   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+11:18:49,917   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+11:18:50,009   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+11:18:50,084   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+11:18:50,172   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+11:18:50,247   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+11:18:50,336   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+11:18:50,412   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+11:18:50,500   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+11:18:50,575   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:962[ms]
+11:18:50,576   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:18:50,751   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:166[ms]
+11:18:50,935   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:176[ms]
+11:18:51,086   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+11:18:51,231   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+11:18:51,383   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+11:18:51,538   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+11:18:51,702   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:154[ms]
+11:18:51,885   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:173[ms]
+11:18:52,141   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:246[ms]
+11:18:52,298   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+11:18:52,488   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:178[ms]
+11:18:52,640   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+11:18:52,807   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+11:18:52,953   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+11:18:53,103   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+11:18:53,259   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:18:53,533   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:264[ms]
+11:18:53,714   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+11:18:53,723   INFO Simulation:259 - preLoop finished.
+11:19:07,950   INFO Simulation:362 - Finished writing all output files
+11:19:07,951   INFO ProjectView:142 - scenario supermarket finished
+11:19:08,018   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+11:19:08,019   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+11:19:08,020   INFO ProjectView:588 - selected scenario 'supermarket'
+11:19:08,280   INFO ProjectView:594 - repainted output table
+11:23:46,830   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:23:46,838   INFO ActionAbstractSaveProject:109 - save project
+11:24:05,672   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+11:24:05,675   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+11:24:05,676   INFO ScenarioRun:126 - scenario context initialized.
+11:24:05,676   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+11:24:05,677   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+11:24:05,683   WARN Version:76 - No version control commit hash available!
+11:24:05,714   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:24:05,728   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+11:24:05,817   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+11:24:05,919   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+11:24:06,014   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+11:24:06,089   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+11:24:06,187   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+11:24:06,262   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+11:24:06,360   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+11:24:06,436   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+11:24:06,531   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+11:24:06,606   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:891[ms]
+11:24:06,606   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:24:06,760   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+11:24:06,976   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:207[ms]
+11:24:07,124   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+11:24:07,284   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+11:24:07,441   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+11:24:07,596   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+11:24:07,760   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:154[ms]
+11:24:07,938   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:169[ms]
+11:24:08,122   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:174[ms]
+11:24:08,408   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:276[ms]
+11:24:08,613   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:195[ms]
+11:24:08,768   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:24:08,935   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+11:24:09,081   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+11:24:09,229   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+11:24:09,384   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:24:09,561   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+11:24:09,890   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:176[ms]
+11:24:09,900   INFO Simulation:259 - preLoop finished.
+11:24:24,235   INFO Simulation:362 - Finished writing all output files
+11:24:24,236   INFO ProjectView:142 - scenario supermarket finished
+11:24:24,310   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=1, state='"SimulationRun completed"}
+11:24:24,311   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+11:24:24,312   INFO ProjectView:588 - selected scenario 'supermarket'
+11:24:24,656   INFO ProjectView:594 - repainted output table
+11:24:30,198   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:24:30,203   INFO ActionAbstractSaveProject:109 - save project
+11:24:31,923   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+11:24:31,925   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+11:24:31,925   INFO ScenarioRun:126 - scenario context initialized.
+11:24:31,926   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+11:24:31,926   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+11:24:31,927   WARN Version:76 - No version control commit hash available!
+11:24:31,936   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:24:31,948   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+11:24:32,146   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+11:24:32,244   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+11:24:32,341   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+11:24:32,417   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+11:24:32,510   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+11:24:32,587   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+11:24:32,681   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+11:24:32,764   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+11:24:32,861   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+11:24:32,939   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1002[ms]
+11:24:32,940   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:24:33,098   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+11:24:33,307   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:201[ms]
+11:24:33,459   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+11:24:33,605   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+11:24:33,759   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+11:24:33,915   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:24:34,078   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:153[ms]
+11:24:34,256   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:168[ms]
+11:24:34,439   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:174[ms]
+11:24:34,596   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+11:24:34,878   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:272[ms]
+11:24:35,033   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+11:24:35,200   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+11:24:35,346   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+11:24:35,495   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+11:24:35,652   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:24:35,828   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:166[ms]
+11:24:36,111   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:273[ms]
+11:24:36,115   INFO Simulation:259 - preLoop finished.
+11:24:50,110   INFO Simulation:362 - Finished writing all output files
+11:24:50,111   INFO ProjectView:142 - scenario supermarket finished
+11:24:50,172   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+11:24:50,173   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+11:24:50,174   INFO ProjectView:588 - selected scenario 'supermarket'
+11:24:50,468   INFO ProjectView:594 - repainted output table
+11:27:13,865   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:27:13,867   INFO ActionAbstractSaveProject:109 - save project
+11:27:20,256   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+11:27:20,259   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+11:27:20,260   INFO ScenarioRun:126 - scenario context initialized.
+11:27:20,260   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+11:27:20,260   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+11:27:20,262   WARN Version:76 - No version control commit hash available!
+11:27:20,282   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:27:20,314   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+11:27:20,401   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+11:27:20,493   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+11:27:20,568   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+11:27:20,659   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+11:27:20,734   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+11:27:20,820   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+11:27:20,895   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+11:27:20,983   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+11:27:21,058   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+11:27:21,145   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:862[ms]
+11:27:21,145   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:27:21,348   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:193[ms]
+11:27:21,530   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+11:27:21,680   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+11:27:21,824   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:135[ms]
+11:27:21,978   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+11:27:22,187   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:200[ms]
+11:27:22,351   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:155[ms]
+11:27:22,530   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:169[ms]
+11:27:22,716   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:177[ms]
+11:27:22,872   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:27:23,060   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:179[ms]
+11:27:23,212   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+11:27:23,379   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:157[ms]
+11:27:23,631   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+11:27:23,779   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+11:27:23,934   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:27:24,112   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:168[ms]
+11:27:24,295   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:173[ms]
+11:27:24,299   INFO Simulation:259 - preLoop finished.
+11:27:38,354   INFO Simulation:362 - Finished writing all output files
+11:27:38,355   INFO ProjectView:142 - scenario supermarket finished
+11:27:38,419   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+11:27:38,419   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+11:27:38,420   INFO ProjectView:588 - selected scenario 'supermarket'
+11:27:38,719   INFO ProjectView:594 - repainted output table
+11:28:27,037   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:28:27,042   INFO ActionAbstractSaveProject:109 - save project
+11:28:42,094   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+11:28:42,096   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+11:28:42,096   INFO ScenarioRun:126 - scenario context initialized.
+11:28:42,097   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+11:28:42,097   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+11:28:42,098   WARN Version:76 - No version control commit hash available!
+11:28:42,106   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:28:42,120   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+11:28:42,225   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+11:28:42,314   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+11:28:42,388   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+11:28:42,475   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+11:28:42,550   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+11:28:42,641   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+11:28:42,728   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+11:28:42,827   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+11:28:42,922   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+11:28:43,012   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:905[ms]
+11:28:43,012   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:28:43,172   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:151[ms]
+11:28:43,357   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:177[ms]
+11:28:43,511   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+11:28:43,662   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+11:28:43,820   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+11:28:43,980   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+11:28:44,158   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+11:28:44,478   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:310[ms]
+11:28:44,669   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:179[ms]
+11:28:44,833   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:152[ms]
+11:28:45,030   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:187[ms]
+11:28:45,188   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+11:28:45,357   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:159[ms]
+11:28:45,512   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+11:28:45,665   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+11:28:45,886   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:210[ms]
+11:28:46,070   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:174[ms]
+11:28:46,261   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:181[ms]
+11:28:46,266   INFO Simulation:259 - preLoop finished.
+11:29:00,190   INFO Simulation:362 - Finished writing all output files
+11:29:00,191   INFO ProjectView:142 - scenario supermarket finished
+11:29:00,255   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=1, state='"SimulationRun completed"}
+11:29:00,255   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+11:29:00,256   INFO ProjectView:588 - selected scenario 'supermarket'
+11:29:00,611   INFO ProjectView:594 - repainted output table
+11:31:12,145   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:31:12,148   INFO ActionAbstractSaveProject:109 - save project
+11:31:13,667   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+11:31:13,668   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+11:31:13,669   INFO ScenarioRun:126 - scenario context initialized.
+11:31:13,669   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+11:31:13,670   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+11:31:13,670   WARN Version:76 - No version control commit hash available!
+11:31:13,679   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:31:13,690   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+11:31:13,838   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+11:31:13,928   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+11:31:14,030   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+11:31:14,112   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+11:31:14,198   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+11:31:14,300   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+11:31:14,389   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+11:31:14,475   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+11:31:14,552   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+11:31:14,646   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:967[ms]
+11:31:14,647   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:31:14,806   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:151[ms]
+11:31:14,990   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+11:31:15,144   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+11:31:15,291   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+11:31:15,442   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+11:31:15,693   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:241[ms]
+11:31:15,856   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:153[ms]
+11:31:16,036   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+11:31:16,220   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:174[ms]
+11:31:16,381   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:151[ms]
+11:31:16,577   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:186[ms]
+11:31:16,745   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+11:31:16,923   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+11:31:17,078   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+11:31:17,301   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:213[ms]
+11:31:17,458   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:31:17,636   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:168[ms]
+11:31:17,824   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:177[ms]
+11:31:17,830   INFO Simulation:259 - preLoop finished.
+11:31:32,313   INFO Simulation:362 - Finished writing all output files
+11:31:32,314   INFO ProjectView:142 - scenario supermarket finished
+11:31:32,388   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=1, state='"SimulationRun completed"}
+11:31:32,389   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+11:31:32,390   INFO ProjectView:588 - selected scenario 'supermarket'
+11:31:32,752   INFO ProjectView:594 - repainted output table
+11:33:25,978   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:33:25,983   INFO ActionAbstractSaveProject:109 - save project
+11:33:33,142   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+11:33:33,144   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+11:33:33,144   INFO ScenarioRun:126 - scenario context initialized.
+11:33:33,144   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+11:33:33,144   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+11:33:33,145   WARN Version:76 - No version control commit hash available!
+11:33:33,151   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:33:33,197   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+11:33:33,317   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+11:33:33,423   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+11:33:33,510   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+11:33:33,599   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+11:33:33,689   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+11:33:33,784   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+11:33:33,868   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+11:33:33,960   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+11:33:34,045   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+11:33:34,133   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:982[ms]
+11:33:34,133   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:33:34,309   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+11:33:34,491   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:173[ms]
+11:33:34,643   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+11:33:34,790   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+11:33:34,945   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+11:33:35,100   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+11:33:35,264   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:154[ms]
+11:33:35,444   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:169[ms]
+11:33:35,711   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:257[ms]
+11:33:35,870   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+11:33:36,059   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:179[ms]
+11:33:36,213   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+11:33:36,382   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+11:33:36,531   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+11:33:36,678   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+11:33:36,836   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+11:33:37,112   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:266[ms]
+11:33:37,311   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:189[ms]
+11:33:37,317   INFO Simulation:259 - preLoop finished.
+11:33:51,126   INFO Simulation:362 - Finished writing all output files
+11:33:51,127   INFO ProjectView:142 - scenario supermarket finished
+11:33:51,194   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=1, state='"SimulationRun completed"}
+11:33:51,195   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+11:33:51,195   INFO ProjectView:588 - selected scenario 'supermarket'
+11:33:51,580   INFO ProjectView:594 - repainted output table
+11:34:00,000   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:34:00,004   INFO ActionAbstractSaveProject:109 - save project
+11:34:46,852   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+11:34:46,856   INFO ActionAbstractSaveProject:109 - save project
+11:34:47,456   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+11:34:47,458   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+11:34:47,458   INFO ScenarioRun:126 - scenario context initialized.
+11:34:47,459   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+11:34:47,459   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+11:34:47,460   WARN Version:76 - No version control commit hash available!
+11:34:47,486   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+11:34:47,527   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+11:34:47,625   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+11:34:47,723   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+11:34:47,808   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+11:34:47,897   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+11:34:47,984   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+11:34:48,061   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+11:34:48,156   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+11:34:48,233   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+11:34:48,324   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+11:34:48,400   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:913[ms]
+11:34:48,401   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+11:34:48,572   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:163[ms]
+11:34:48,800   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:211[ms]
+11:34:49,001   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:192[ms]
+11:34:49,148   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+11:34:49,303   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+11:34:49,460   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+11:34:49,626   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:155[ms]
+11:34:49,807   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+11:34:49,991   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:173[ms]
+11:34:50,148   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+11:34:50,338   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:180[ms]
+11:34:50,645   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:295[ms]
+11:34:50,812   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:157[ms]
+11:34:50,960   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+11:34:51,108   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+11:34:51,263   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+11:34:51,440   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+11:34:51,624   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:174[ms]
+11:34:51,681   INFO Simulation:259 - preLoop finished.
+11:35:05,697   INFO Simulation:362 - Finished writing all output files
+11:35:05,698   INFO ProjectView:142 - scenario supermarket finished
+11:35:05,776   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+11:35:05,777   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+11:35:05,777   INFO ProjectView:588 - selected scenario 'supermarket'
+11:35:06,411   INFO ProjectView:594 - repainted output table
+13:55:21,855   INFO STDOUTERR:15 - Redirect StdOut and StdErr
+13:55:21,858   INFO VadereApplication:25 - starting Vadere GUI...
+13:55:21,898   INFO VadereConfig:66 - Use config file from path /Users/longtaoliu/.config/vadere.conf
+13:55:24,920   INFO IOVadere:57 - read project: /Users/longtaoliu/Vadere/task1/Vadere/vadere.project
+13:55:24,996   INFO IOVadere:67 - analyzed scenario files.
+13:55:31,480   INFO IOVadere:88 - analyzed: 22, migrated: 0, upToDate: 22, notMigratable: 0
+13:55:37,497   INFO IOVadere:93 - project loaded: task1
+13:55:37,504   INFO ActionLoadProject:113 - refreshed output table - 2
+13:55:37,506   INFO ProjectView:588 - selected scenario 'Chicken_testOSM'
+13:55:37,715   INFO DataProcessingView:97 - switch to gui view
+13:55:37,922   INFO ProjectView:594 - repainted output table
+13:55:37,923   INFO ActionLoadProject:117 - selected the first scenario
+13:55:37,931   INFO ActionLoadProject:124 - project 'task1' loaded.
+13:56:24,987   INFO ProjectView:588 - selected scenario 'supermarket_clone_1'
+13:56:25,205   INFO ProjectView:594 - repainted output table
+14:04:38,485   WARN Version:76 - No version control commit hash available!
+14:04:38,494   INFO ActionRenameScenario:64 - rename scenario: supermarket_clone_1 => supermarket_reduced
+14:04:46,041   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+14:04:46,049   INFO ActionAbstractSaveProject:109 - save project
+14:05:01,160   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+14:05:01,306   INFO ProjectView:594 - repainted output table
+14:05:06,423   INFO ProjectView:588 - selected scenario 'supermarket'
+14:05:06,596   INFO ProjectView:594 - repainted output table
+14:05:08,530   WARN Version:76 - No version control commit hash available!
+14:05:08,534   INFO ActionCloneScenario:42 - clone scenario: supermarket => supermarket_clone_1
+14:05:08,535   INFO ProjectView:588 - selected scenario 'supermarket_clone_1'
+14:05:08,725   INFO ProjectView:594 - repainted output table
+14:05:17,148   WARN Version:76 - No version control commit hash available!
+14:05:17,151   INFO ActionRenameScenario:64 - rename scenario: supermarket_clone_1 => supermarket_reduced
+14:08:25,757   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+14:08:25,761   INFO ActionAbstractSaveProject:109 - save project
+14:08:37,268   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+14:08:37,272   INFO ActionAbstractSaveProject:109 - save project
+14:10:58,310   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+14:10:58,314   INFO ActionAbstractSaveProject:109 - save project
+14:11:04,474   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+14:11:04,707   INFO ProjectView:594 - repainted output table
+14:11:10,853   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+14:11:10,857   INFO ScenarioRun:145 - Initializing scenario: supermarket_reduced...
+14:11:10,880   INFO ScenarioRun:126 - scenario context initialized.
+14:11:10,889   INFO ScenarioRun:225 - no mesh supermarket_reduced.poly was found.
+14:11:10,890   INFO ScenarioRun:225 - no mesh supermarket_reduced_background.poly was found.
+14:11:10,925   WARN Version:76 - No version control commit hash available!
+14:11:11,025   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+14:11:11,041   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+14:11:11,294   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+14:11:11,385   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+14:11:11,470   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+14:11:11,555   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+14:11:11,644   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+14:11:11,735   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+14:11:11,932   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+14:11:12,084   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+14:11:12,174   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+14:11:12,263   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1235[ms]
+14:11:12,267   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+14:11:12,530   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:223[ms]
+14:11:12,781   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:238[ms]
+14:11:13,013   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:206[ms]
+14:11:13,251   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:210[ms]
+14:11:13,473   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:198[ms]
+14:11:13,755   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:239[ms]
+14:11:13,991   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:213[ms]
+14:11:14,241   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:216[ms]
+14:11:14,427   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+14:11:14,662   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:223[ms]
+14:11:14,849   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+14:11:14,997   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+14:11:15,163   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:155[ms]
+14:11:15,304   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:130[ms]
+14:11:15,447   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:131[ms]
+14:11:15,601   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+14:11:15,870   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:258[ms]
+14:11:16,051   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+14:11:16,060   INFO Simulation:259 - preLoop finished.
+14:11:18,141   INFO ActionPauseScenario:32 - all running scenarios paused
+14:11:40,092   INFO Simulation:362 - Finished writing all output files
+14:11:40,094   INFO ProjectView:142 - scenario supermarket_reduced finished
+14:11:40,168   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket_reduced", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+14:11:40,170   INFO ScenarioRun:261 - Simulation of scenario supermarket_reduced finished.
+14:11:40,171   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+14:11:40,371   INFO ProjectView:594 - repainted output table
+14:15:11,127   INFO ProjectView:611 - selected output file 'supermarket_reduced_2021-05-10_14-11-10.856'
+19:06:23,944   INFO Player:73 - Player killed!
+19:06:23,944   INFO Player:119 - Player interrupted while sleeping
+19:06:23,956   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:06:24,045   INFO ProjectView:594 - repainted output table
+19:06:30,036   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:06:30,044   INFO ActionAbstractSaveProject:109 - save project
+19:09:14,887   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+19:09:14,891   INFO ScenarioRun:145 - Initializing scenario: supermarket_reduced...
+19:09:14,892   INFO ScenarioRun:126 - scenario context initialized.
+19:09:14,892   INFO ScenarioRun:225 - no mesh supermarket_reduced.poly was found.
+19:09:14,892   INFO ScenarioRun:225 - no mesh supermarket_reduced_background.poly was found.
+19:09:14,894   WARN Version:76 - No version control commit hash available!
+19:09:14,947   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+19:09:14,968   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+19:09:15,383   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+19:09:15,477   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+19:09:15,577   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+19:09:15,823   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+19:09:15,976   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+19:09:16,062   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+19:09:16,185   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+19:09:16,266   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+19:09:16,381   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+19:09:16,494   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1546[ms]
+19:09:16,495   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+19:09:16,646   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+19:09:16,830   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:173[ms]
+19:09:16,993   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+19:09:17,149   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:09:17,304   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:09:17,463   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+19:09:17,627   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:153[ms]
+19:09:17,938   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+19:09:18,121   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:171[ms]
+19:09:18,276   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:09:18,465   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:178[ms]
+19:09:18,617   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+19:09:18,782   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:154[ms]
+19:09:18,929   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:135[ms]
+19:09:19,196   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+19:09:19,355   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+19:09:19,534   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:165[ms]
+19:09:19,715   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+19:09:19,723   INFO Simulation:259 - preLoop finished.
+19:09:23,881   INFO ActionPauseScenario:32 - all running scenarios paused
+19:09:37,007   INFO Simulation:362 - Finished writing all output files
+19:09:37,008   INFO ProjectView:142 - scenario supermarket_reduced finished
+19:09:37,053   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket_reduced", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+19:09:37,054   INFO ScenarioRun:261 - Simulation of scenario supermarket_reduced finished.
+19:09:37,055   INFO Player:73 - Player killed!
+19:09:37,056   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:09:37,264   INFO ProjectView:594 - repainted output table
+19:10:28,278   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:10:28,283   INFO ActionAbstractSaveProject:109 - save project
+19:10:29,811   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+19:10:29,813   INFO ScenarioRun:145 - Initializing scenario: supermarket_reduced...
+19:10:29,814   INFO ScenarioRun:126 - scenario context initialized.
+19:10:29,814   INFO ScenarioRun:225 - no mesh supermarket_reduced.poly was found.
+19:10:29,814   INFO ScenarioRun:225 - no mesh supermarket_reduced_background.poly was found.
+19:10:29,815   WARN Version:76 - No version control commit hash available!
+19:10:29,828   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+19:10:29,842   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+19:10:30,026   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+19:10:30,141   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+19:10:30,268   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+19:10:30,410   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+19:10:30,494   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+19:10:30,614   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+19:10:30,715   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+19:10:30,796   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+19:10:30,890   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+19:10:30,988   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1159[ms]
+19:10:30,988   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+19:10:31,145   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:148[ms]
+19:10:31,321   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+19:10:31,471   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+19:10:31,618   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+19:10:31,771   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+19:10:31,927   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+19:10:32,092   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:152[ms]
+19:10:32,338   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:235[ms]
+19:10:32,522   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+19:10:32,677   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:10:32,868   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:180[ms]
+19:10:33,036   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:154[ms]
+19:10:33,222   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:173[ms]
+19:10:33,380   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+19:10:33,635   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:245[ms]
+19:10:33,823   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:177[ms]
+19:10:34,023   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:189[ms]
+19:10:34,204   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:171[ms]
+19:10:34,210   INFO Simulation:259 - preLoop finished.
+19:10:47,998   INFO Simulation:362 - Finished writing all output files
+19:10:47,999   INFO ProjectView:142 - scenario supermarket_reduced finished
+19:10:48,043   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket_reduced", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+19:10:48,044   INFO ScenarioRun:261 - Simulation of scenario supermarket_reduced finished.
+19:10:48,044   INFO Player:73 - Player killed!
+19:10:48,045   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:10:48,275   INFO ProjectView:594 - repainted output table
+19:11:13,698   INFO Player:73 - Player killed!
+19:11:13,700   INFO ProjectView:588 - selected scenario 'supermarket'
+19:11:13,985   INFO ProjectView:594 - repainted output table
+19:11:14,995   INFO Player:73 - Player killed!
+19:11:14,998   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:11:15,292   INFO ProjectView:594 - repainted output table
+19:11:18,428   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:11:18,432   INFO ActionAbstractSaveProject:109 - save project
+19:11:19,859   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+19:11:19,860   INFO ScenarioRun:145 - Initializing scenario: supermarket_reduced...
+19:11:19,861   INFO ScenarioRun:126 - scenario context initialized.
+19:11:19,861   INFO ScenarioRun:225 - no mesh supermarket_reduced.poly was found.
+19:11:19,861   INFO ScenarioRun:225 - no mesh supermarket_reduced_background.poly was found.
+19:11:19,862   WARN Version:76 - No version control commit hash available!
+19:11:19,874   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+19:11:19,885   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+19:11:19,997   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+19:11:20,092   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+19:11:20,206   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+19:11:20,301   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+19:11:20,381   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+19:11:20,474   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+19:11:20,566   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+19:11:20,649   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+19:11:20,742   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+19:11:20,822   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:947[ms]
+19:11:20,823   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+19:11:20,977   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+19:11:21,179   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:192[ms]
+19:11:21,328   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+19:11:21,473   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:134[ms]
+19:11:21,626   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+19:11:21,782   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+19:11:21,943   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+19:11:22,121   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+19:11:22,306   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+19:11:22,463   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+19:11:22,732   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:257[ms]
+19:11:22,884   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+19:11:23,053   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:158[ms]
+19:11:23,199   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:134[ms]
+19:11:23,347   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+19:11:23,503   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:11:23,678   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:164[ms]
+19:11:23,961   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:272[ms]
+19:11:23,968   INFO Simulation:259 - preLoop finished.
+19:11:37,695   INFO Simulation:362 - Finished writing all output files
+19:11:37,695   INFO ProjectView:142 - scenario supermarket_reduced finished
+19:11:37,741   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket_reduced", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+19:11:37,741   INFO ScenarioRun:261 - Simulation of scenario supermarket_reduced finished.
+19:11:37,741   INFO Player:73 - Player killed!
+19:11:37,742   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:11:38,041   INFO ProjectView:594 - repainted output table
+19:12:01,606   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:12:01,609   INFO ActionAbstractSaveProject:109 - save project
+19:12:02,788   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+19:12:02,790   INFO ScenarioRun:145 - Initializing scenario: supermarket_reduced...
+19:12:02,791   INFO ScenarioRun:126 - scenario context initialized.
+19:12:02,791   INFO ScenarioRun:225 - no mesh supermarket_reduced.poly was found.
+19:12:02,792   INFO ScenarioRun:225 - no mesh supermarket_reduced_background.poly was found.
+19:12:02,793   WARN Version:76 - No version control commit hash available!
+19:12:02,823   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+19:12:02,851   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+19:12:03,030   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+19:12:03,111   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+19:12:03,204   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+19:12:03,285   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+19:12:03,386   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+19:12:03,466   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+19:12:03,559   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+19:12:03,639   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+19:12:03,733   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+19:12:03,814   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:989[ms]
+19:12:03,814   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+19:12:03,970   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+19:12:04,172   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:169[ms]
+19:12:04,322   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+19:12:04,469   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+19:12:04,619   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+19:12:04,774   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:12:04,936   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:151[ms]
+19:12:05,115   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:168[ms]
+19:12:05,296   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+19:12:05,451   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+19:12:05,725   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:263[ms]
+19:12:05,878   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+19:12:06,043   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:154[ms]
+19:12:06,189   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:135[ms]
+19:12:06,336   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+19:12:06,493   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+19:12:06,670   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:166[ms]
+19:12:06,863   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:183[ms]
+19:12:06,870   INFO Simulation:259 - preLoop finished.
+19:12:20,684   INFO Simulation:362 - Finished writing all output files
+19:12:20,685   INFO ProjectView:142 - scenario supermarket_reduced finished
+19:12:20,725   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket_reduced", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+19:12:20,726   INFO ScenarioRun:261 - Simulation of scenario supermarket_reduced finished.
+19:12:20,726   INFO Player:73 - Player killed!
+19:12:20,727   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:12:21,058   INFO ProjectView:594 - repainted output table
+19:17:35,993   INFO Player:73 - Player killed!
+19:17:35,995   INFO ProjectView:588 - selected scenario 'supermarket'
+19:17:36,358   INFO ProjectView:594 - repainted output table
+19:32:43,625   INFO Player:73 - Player killed!
+19:32:43,629   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:32:44,050   INFO ProjectView:594 - repainted output table
+19:33:43,648   INFO Player:73 - Player killed!
+19:33:49,908   INFO ProjectView:611 - selected output file 'supermarket_reduced_2021-05-10_19-12-02.790'
+19:34:02,182   INFO ActionRenameOutputFile:51 - rename output file supermarket_reduced_2021-05-10_19-12-02.790 => supermarket_reduced_1
+19:38:19,680   INFO Player:73 - Player killed!
+19:38:19,685   INFO ProjectView:588 - selected scenario 'supermarket'
+19:38:19,716   INFO ProjectView:594 - repainted output table
+19:38:20,341   INFO Player:73 - Player killed!
+19:38:20,343   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:38:20,747   INFO ProjectView:594 - repainted output table
+19:38:23,357   INFO Player:73 - Player killed!
+19:38:23,359   INFO ProjectView:588 - selected scenario 'supermarket'
+19:38:23,785   INFO ProjectView:594 - repainted output table
+19:39:11,126   INFO Player:73 - Player killed!
+19:39:11,127   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:39:11,579   INFO ProjectView:594 - repainted output table
+19:39:16,826   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:39:16,831   INFO ActionAbstractSaveProject:109 - save project
+19:39:19,225   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:39:19,229   INFO ActionAbstractSaveProject:109 - save project
+19:39:20,377   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+19:39:20,378   INFO ScenarioRun:145 - Initializing scenario: supermarket_reduced...
+19:39:20,379   INFO ScenarioRun:126 - scenario context initialized.
+19:39:20,379   INFO ScenarioRun:225 - no mesh supermarket_reduced.poly was found.
+19:39:20,379   INFO ScenarioRun:225 - no mesh supermarket_reduced_background.poly was found.
+19:39:20,380   WARN Version:76 - No version control commit hash available!
+19:39:20,389   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+19:39:20,401   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+19:39:20,526   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+19:39:20,617   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+19:39:20,708   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+19:39:20,796   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+19:39:20,885   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+19:39:20,964   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+19:39:21,052   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+19:39:21,140   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+19:39:21,229   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+19:39:21,314   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:924[ms]
+19:39:21,314   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+19:39:21,466   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+19:39:21,647   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:171[ms]
+19:39:21,795   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+19:39:21,939   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:134[ms]
+19:39:22,093   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:39:22,316   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:213[ms]
+19:39:22,478   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:152[ms]
+19:39:22,656   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+19:39:22,838   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+19:39:22,994   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+19:39:23,183   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:178[ms]
+19:39:23,334   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+19:39:23,499   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:155[ms]
+19:39:23,646   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+19:39:23,980   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:324[ms]
+19:39:24,135   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:39:24,315   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:169[ms]
+19:39:24,503   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:177[ms]
+19:39:24,541   INFO Simulation:259 - preLoop finished.
+19:39:38,213   INFO Simulation:362 - Finished writing all output files
+19:39:38,213   INFO ProjectView:142 - scenario supermarket_reduced finished
+19:39:38,272   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket_reduced", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+19:39:38,272   INFO ScenarioRun:261 - Simulation of scenario supermarket_reduced finished.
+19:39:38,272   INFO Player:73 - Player killed!
+19:39:38,273   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:39:38,757   INFO ProjectView:594 - repainted output table
+19:40:11,384   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:40:11,388   INFO ActionAbstractSaveProject:109 - save project
+19:40:12,759   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+19:40:12,761   INFO ScenarioRun:145 - Initializing scenario: supermarket_reduced...
+19:40:12,761   INFO ScenarioRun:126 - scenario context initialized.
+19:40:12,762   INFO ScenarioRun:225 - no mesh supermarket_reduced.poly was found.
+19:40:12,762   INFO ScenarioRun:225 - no mesh supermarket_reduced_background.poly was found.
+19:40:12,763   WARN Version:76 - No version control commit hash available!
+19:40:12,774   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+19:40:12,818   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+19:40:12,926   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+19:40:13,013   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+19:40:13,118   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+19:40:13,209   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+19:40:13,335   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+19:40:13,424   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+19:40:13,521   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+19:40:13,614   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+19:40:13,696   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+19:40:13,791   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:1017[ms]
+19:40:13,791   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+19:40:13,957   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:156[ms]
+19:40:14,134   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:168[ms]
+19:40:14,304   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:153[ms]
+19:40:14,451   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+19:40:14,603   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+19:40:14,760   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+19:40:14,988   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:218[ms]
+19:40:15,165   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+19:40:15,344   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:168[ms]
+19:40:15,498   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:40:15,685   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:176[ms]
+19:40:15,836   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:140[ms]
+19:40:16,002   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:155[ms]
+19:40:16,149   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:136[ms]
+19:40:16,296   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:137[ms]
+19:40:16,641   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:334[ms]
+19:40:16,814   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:162[ms]
+19:40:16,997   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+19:40:17,002   INFO Simulation:259 - preLoop finished.
+19:40:30,700   INFO Simulation:362 - Finished writing all output files
+19:40:30,701   INFO ProjectView:142 - scenario supermarket_reduced finished
+19:40:30,762   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket_reduced", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+19:40:30,763   INFO ScenarioRun:261 - Simulation of scenario supermarket_reduced finished.
+19:40:30,763   INFO Player:73 - Player killed!
+19:40:30,764   INFO ProjectView:588 - selected scenario 'supermarket_reduced'
+19:40:31,277   INFO ProjectView:594 - repainted output table
+19:40:40,567   INFO Player:73 - Player killed!
+19:40:46,909   INFO ProjectView:611 - selected output file 'supermarket_1'
+19:41:11,911   INFO Player:73 - Player killed!
+19:41:18,417   INFO ProjectView:611 - selected output file 'supermarket_2'
+19:49:28,595   INFO Player:73 - Player killed!
+19:49:28,598   INFO ProjectView:588 - selected scenario 'supermarket'
+19:49:28,629   INFO ProjectView:594 - repainted output table
+19:49:38,945   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:49:38,949   INFO ActionAbstractSaveProject:109 - save project
+19:49:40,787   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+19:49:40,788   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+19:49:40,789   INFO ScenarioRun:126 - scenario context initialized.
+19:49:40,789   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+19:49:40,789   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+19:49:40,790   WARN Version:76 - No version control commit hash available!
+19:49:40,809   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+19:49:40,818   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+19:49:40,918   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+19:49:41,025   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+19:49:41,106   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+19:49:41,191   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+19:49:41,293   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+19:49:41,372   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+19:49:41,466   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+19:49:41,545   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+19:49:41,633   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+19:49:41,724   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:914[ms]
+19:49:41,725   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+19:49:41,879   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+19:49:42,059   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:166[ms]
+19:49:42,207   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+19:49:42,353   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:135[ms]
+19:49:42,505   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:142[ms]
+19:49:42,760   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:244[ms]
+19:49:42,922   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:151[ms]
+19:49:43,097   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:164[ms]
+19:49:43,284   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:177[ms]
+19:49:43,439   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:49:43,633   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:183[ms]
+19:49:43,785   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+19:49:43,952   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:155[ms]
+19:49:44,096   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:134[ms]
+19:49:44,262   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:155[ms]
+19:49:44,421   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:147[ms]
+19:49:44,702   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:270[ms]
+19:49:44,885   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+19:49:44,890   INFO Simulation:259 - preLoop finished.
+19:49:59,179   INFO Simulation:362 - Finished writing all output files
+19:49:59,180   INFO ProjectView:142 - scenario supermarket finished
+19:49:59,249   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=1, state='"SimulationRun completed"}
+19:49:59,250   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+19:49:59,250   INFO Player:73 - Player killed!
+19:49:59,251   INFO ProjectView:588 - selected scenario 'supermarket'
+19:49:59,749   INFO ProjectView:594 - repainted output table
+19:50:25,243   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:50:25,246   INFO ActionAbstractSaveProject:109 - save project
+19:50:26,399   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+19:50:26,400   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+19:50:26,401   INFO ScenarioRun:126 - scenario context initialized.
+19:50:26,401   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+19:50:26,401   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+19:50:26,402   WARN Version:76 - No version control commit hash available!
+19:50:26,417   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+19:50:26,432   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+19:50:26,535   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+19:50:26,651   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+19:50:26,740   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+19:50:26,826   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+19:50:26,940   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+19:50:27,023   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+19:50:27,117   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+19:50:27,212   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+19:50:27,299   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+19:50:27,397   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:979[ms]
+19:50:27,397   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+19:50:27,556   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+19:50:27,792   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:228[ms]
+19:50:27,946   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:145[ms]
+19:50:28,093   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:138[ms]
+19:50:28,252   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+19:50:28,412   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:149[ms]
+19:50:28,576   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:154[ms]
+19:50:28,754   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+19:50:28,938   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:172[ms]
+19:50:29,241   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:159[ms]
+19:50:29,433   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:181[ms]
+19:50:29,585   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+19:50:29,753   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:157[ms]
+19:50:29,900   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:135[ms]
+19:50:30,049   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:139[ms]
+19:50:30,205   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+19:50:30,382   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:166[ms]
+19:50:30,567   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+19:50:30,571   INFO Simulation:259 - preLoop finished.
+19:50:44,898   INFO Simulation:362 - Finished writing all output files
+19:50:44,899   INFO ProjectView:142 - scenario supermarket finished
+19:50:44,964   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+19:50:44,964   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+19:50:44,964   INFO Player:73 - Player killed!
+19:50:44,965   INFO ProjectView:588 - selected scenario 'supermarket'
+19:50:45,444   INFO ProjectView:594 - repainted output table
+19:51:22,144   INFO ApplicationWriter:21 - saved project 'task1' at '/Users/longtaoliu/Vadere/task1/Vadere'.
+19:51:22,149   INFO ActionAbstractSaveProject:109 - save project
+19:51:23,291   INFO ScenarioCache:85 - Cache search location: /Users/longtaoliu/Vadere/task1/Vadere/scenarios/__cache__
+19:51:23,293   INFO ScenarioRun:145 - Initializing scenario: supermarket...
+19:51:23,293   INFO ScenarioRun:126 - scenario context initialized.
+19:51:23,293   INFO ScenarioRun:225 - no mesh supermarket.poly was found.
+19:51:23,294   INFO ScenarioRun:225 - no mesh supermarket_background.poly was found.
+19:51:23,295   WARN Version:76 - No version control commit hash available!
+19:51:23,304   INFO PotentialFieldDistancesBruteForce:49 - solve floor field (PotentialFieldDistancesBruteForce)
+19:51:23,359   INFO PotentialFieldDistancesBruteForce:106 - Progress:  0% -> 0/251001 [points]
+19:51:23,470   INFO PotentialFieldDistancesBruteForce:106 - Progress: 10% -> 25101/251001 [points]
+19:51:23,552   INFO PotentialFieldDistancesBruteForce:106 - Progress: 20% -> 50201/251001 [points]
+19:51:23,658   INFO PotentialFieldDistancesBruteForce:106 - Progress: 30% -> 75301/251001 [points]
+19:51:23,738   INFO PotentialFieldDistancesBruteForce:106 - Progress: 40% -> 100401/251001 [points]
+19:51:23,816   INFO PotentialFieldDistancesBruteForce:106 - Progress: 50% -> 125501/251001 [points]
+19:51:23,924   INFO PotentialFieldDistancesBruteForce:106 - Progress: 60% -> 150601/251001 [points]
+19:51:24,004   INFO PotentialFieldDistancesBruteForce:106 - Progress: 70% -> 175701/251001 [points]
+19:51:24,103   INFO PotentialFieldDistancesBruteForce:106 - Progress: 80% -> 200801/251001 [points]
+19:51:24,185   INFO PotentialFieldDistancesBruteForce:106 - Progress: 90% -> 225901/251001 [points]
+19:51:24,265   INFO PotentialFieldDistancesBruteForce:96 - floor field initialization time:960[ms]
+19:51:24,266   INFO Topography:414 - Set PedestrianIdCount to start value: 1
+19:51:24,421   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+19:51:24,672   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:242[ms]
+19:51:24,850   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:169[ms]
+19:51:25,006   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:146[ms]
+19:51:25,158   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:143[ms]
+19:51:25,313   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:51:25,476   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:153[ms]
+19:51:25,654   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+19:51:25,835   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:170[ms]
+19:51:25,990   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:144[ms]
+19:51:26,176   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+19:51:26,327   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:141[ms]
+19:51:26,493   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:155[ms]
+19:51:26,638   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:134[ms]
+19:51:26,985   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:336[ms]
+19:51:27,146   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:150[ms]
+19:51:27,324   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:167[ms]
+19:51:27,510   INFO EikonalSolverDefaultProvider:23 - floor field initialization time:175[ms]
+19:51:27,552   INFO Simulation:259 - preLoop finished.
+19:51:41,560   INFO Simulation:362 - Finished writing all output files
+19:51:41,560   INFO ProjectView:142 - scenario supermarket finished
+19:51:41,624   INFO VadereProject:302 - SimulationResult{scenarioName='"supermarket", nr_overlaps (PID4)=0, state='"SimulationRun completed"}
+19:51:41,624   INFO ScenarioRun:261 - Simulation of scenario supermarket finished.
+19:51:41,625   INFO Player:73 - Player killed!
+19:51:41,625   INFO ProjectView:588 - selected scenario 'supermarket'
+19:51:42,116   INFO ProjectView:594 - repainted output table
+19:52:50,141   INFO Player:73 - Player killed!
+19:52:56,696   INFO ProjectView:611 - selected output file 'supermarket_2021-05-10_19-51-23.292'
+19:53:58,340   INFO Player:73 - Player killed!
+19:54:04,821   INFO ProjectView:611 - selected output file 'supermarket_1'
+19:54:10,765  ERROR IOOutput:169 - could not delete output directory: /Users/longtaoliu/Vadere/task1/Vadere/output/supermarket_1, /Users/longtaoliu/Vadere/task1/Vadere/output/supermarket_1
+19:54:10,766   INFO ProjectViewModel:83 - output dir /Users/longtaoliu/Vadere/task1/Vadere/output/supermarket_1 dir deleted.
+19:54:15,237  ERROR IOOutput:262 - Error in output file supermarket_1
+19:54:19,373   INFO Player:73 - Player killed!
+19:54:21,694  ERROR IOOutput:262 - Error in output file supermarket_1
+19:54:25,809   INFO ProjectView:611 - selected output file 'supermarket_2021-05-10_19-51-23.292'
+19:54:34,841  ERROR IOOutput:262 - Error in output file supermarket_1
+19:54:52,845   INFO ActionRenameOutputFile:53 - wrong file name for an output file: supermarket_1
+19:55:45,807  ERROR ProjectView:688 - java.io.IOException: missing trajectory file with the extension .scenario
+19:55:45,808   INFO Player:73 - Player killed!
+19:55:45,808  ERROR ProjectView:615 - java.io.IOException: missing trajectory file with the extension .scenario
+19:56:05,706   INFO Player:73 - Player killed!
+19:56:12,145   INFO ProjectView:611 - selected output file 'supermarket_reduced_2021-05-10_19-40-12.760'
+20:04:28,627  ERROR ProjectView:688 - java.io.IOException: missing trajectory file with the extension .scenario
+20:04:28,627   INFO Player:73 - Player killed!
+20:04:28,628  ERROR ProjectView:615 - java.io.IOException: missing trajectory file with the extension .scenario
+20:04:59,190   INFO Player:73 - Player killed!
+20:05:05,550   INFO ProjectView:611 - selected output file 'supermarket_reduced_2021-05-10_19-39-20.378'
+20:05:28,182   INFO Player:73 - Player killed!
+20:05:34,739   INFO ProjectView:611 - selected output file 'supermarket_reduced_2021-05-10_19-10-29.813'
+20:05:41,213   INFO Player:73 - Player killed!
+20:05:47,643   INFO ProjectView:611 - selected output file 'supermarket_reduced_1'
+20:08:26,749   INFO ActionCloseApplication:28 - closing application...
